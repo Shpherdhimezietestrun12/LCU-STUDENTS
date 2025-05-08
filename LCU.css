@@ -1,17 +1,134 @@
 body {
     background-color: black;
+    padding-bottom: 2000px;
 }
 
 .div-one {
-    background: url("./Pictures/lead_two.jpg") no-repeat 40% 20%;
-    width: 101%;
-    height: 500px;
+    background: url("./Pictures/lead_two.jpg") no-repeat 70% 20%;
+    width: 103.5%;
+    height: 350px;
     background-size: cover;
     margin: -7px;
     padding: 0;
 }
 
 .img-one {
-    zoom: 0.3;
-    margin: 50px;
+    zoom: 0.2;
+    margin: 40px;
+}
+
+.img-two {
+    zoom: 1.0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+    position: absolute;
+}
+
+.par-one {
+    color: #1e28b4;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+}
+
+.par-two {
+    color: #1e28b4;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -80px;
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+}
+
+.img_sec_last {
+    zoom: 0.9;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 85px;
+    margin-right: 5px;
+    position: fixed;
+}
+
+.img-last {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+.par-extra-one {
+    margin-top: 120px;
+    color: #1f268f;
+    font-family: Haettenschweiler, sans-serif;
+    font-size: 85px;
+}
+
+.par-three {
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: -100px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.par-four {
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    margin-top: -20px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.par-five {
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    margin-top: -20px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.img-three {
+    margin-top: -140px;
+    right: 0;
+    position: absolute;
+}
+
+.img-four {
+    margin-top: 30px;
+    text-align: end;
+}
+
+.par-six {
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-one {
+    text-decoration: none;
+}
+
+.nav-one li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.bit-one {
+    width: 200px;
+    height: 200px;
+    border: #1f268f solid 2px;
+    border-radius: 20px;
+    background-color: transparent;
 }
