@@ -10,3 +10,8 @@ body {
     margin: -7px;
     padding: 0;
 }
+
+.img-one {
+    zoom: 0.3;
+    margin: 50px;
+}
