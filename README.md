@@ -1,4 +1,6 @@
-This is the page for creating your website for task management for LCU students... please kindly use the doc file to note everything you do at everypoint in time pls....
-Step one - create a folder on your pc which will be named LCU students 
-Step two - create several folders on the folder on your pc that will be name the folders on this LCU link 
-Step three - create a files of the type and paste the code in here there... then we will take the rest when we meet later
+We are creating a web database that helps keep records of current students offering a course - which could also contain attendance taking and the rest.
+Steps On Creating this....
+Step One:
+1. We setup our landing page: which we all call the main page. I will do that now..
+2. We define a background picture for the main page - which can either be any color or an image presentation...
+3. 
