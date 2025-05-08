@@ -1,14 +1,12 @@
 body {
-    background: url("./Pictures/istockphoto-1468830962-612x612.jpg") no-repeat 0 0 / cover;
-    margin: 0;
-    padding: 0;
-    height: 30vh;
-    width: 30vw;
-    background-attachment: fixed;
+    background-color: black;
 }
 
-.par-one {
-    text-align: center;
-    color: #ffffff;
-    font-size: 100px;
+.div-one {
+    background: url("./Pictures/lead_two.jpg") no-repeat;
+    width: 101%;
+    height: 700px;
+    background-size: cover;
+    margin: -7px;
+    padding: 0;
 }
