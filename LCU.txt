@@ -1,6 +1,6 @@
-This will be the documentation for the website being created... pls anything you do ensure u document it appropriately with your name.
+We are creating a web database that helps keep records of current students offering a course - which could also contain attendance taking and the rest. Steps On Creating this.... Step One:
 
+1. We setup our landing page: which we all call the main page. I will do that now..
+2. We define a background picture for the main page - which can either be any color or an image presentation...
 
-Chimezie Shepherd - 
-05/05/2025...
-Launched the website on github for live viewing...
+3. 
