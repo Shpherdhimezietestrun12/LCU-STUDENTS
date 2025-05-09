@@ -137,6 +137,26 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: nowrap;
+    /* ... existing styles ... */
+    animation: slide 60s infinite
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100px);
+    }
+    50% {
+        transform: translateX(-200px);
+    }
+    75% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .nav-one li {
