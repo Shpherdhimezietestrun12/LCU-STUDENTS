@@ -127,12 +127,37 @@ body {
 
 .nav-one {
     text-decoration: none;
-    margin-left: -30px;
+    overflow-x: hidden;
+    margin-top: 70px;
+    margin-left: -70px;
+}
+
+.nav-one ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .nav-one li {
-    list-style: none;
+    padding: 30px;
     display: inline-block;
+}
+
+.nav-one li:last-child {
+    margin-right: 0;
+}
+
+.nav-one ul::-webkit-scrollbar {
+    height: 0px;
+}
+
+.nav-one ul::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.nav-one ul::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
 }
 
 .bit-one {
@@ -141,4 +166,8 @@ body {
     border: #1f268f solid 2px;
     border-radius: 20px;
     background-color: transparent;
+    border-radius: 40px;
+    opacity: 0.7;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.9);
+    backdrop-filter: blur(10px);
 }
