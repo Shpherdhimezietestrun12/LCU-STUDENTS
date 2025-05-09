@@ -56,7 +56,10 @@ body {
 
 .img-last {
     bottom: 0;
+    zoom: 0.9;
+    margin-right: 22px;
     right: 0;
+    margin-bottom: 20px;
     position: fixed;
 }
 
