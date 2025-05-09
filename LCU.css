@@ -27,22 +27,22 @@ body {
 
 .par-one {
     color: #1e28b4;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     margin-top: 35px;
-    font-weight: bold;
-    font-family: "Goudy Old Style", Garamond, serif;
+    font-family: "Playfair Display", serif;
     font-style: italic;
+    font-weight: bold;
 }
 
 .par-two {
     color: #1e28b4;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
-    font-weight: bold;
-    margin-top: -70px;
-    font-family: "Goudy Old Style", Garamond, serif;
+    margin-top: -50px;
+    font-family: "Playfair Display", serif;
     font-style: italic;
+    font-weight: bold;
 }
 
 .img_sec_last {
@@ -71,47 +71,52 @@ body {
 }
 
 .par-three {
-    font-family: "Goudy Old Style", Garamond, serif;
-    font-style: italic;
     font-weight: bold;
     margin-top: -100px;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .par-four {
-    font-family: "Goudy Old Style", Garamond, serif;
+    font-family: "Playfair Display", serif;
     font-style: italic;
     margin-top: -20px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     color: #ffffff;
 }
 
 .par-five {
-    font-family: "Goudy Old Style", Garamond, serif;
+    font-family: "Playfair Display", serif;
     font-style: italic;
     margin-top: -20px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     color: #ffffff;
 }
 
 .img-three {
-    margin-top: -140px;
+    margin-top: -130px;
+    margin-right: -2px;
     right: 0;
     position: absolute;
 }
 
 .img-four {
-    margin-top: 30px;
-    text-align: end;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* Ensure it's a block-level element */
 }
 
 .par-six {
     font-family: "Goudy Old Style", Garamond, serif;
     font-style: italic;
-    margin-top: 40px;
+    margin-top: 50px;
     font-weight: bolder;
     font-size: 30px;
     color: #ffffff;
@@ -120,17 +125,17 @@ body {
 
 .nav-one {
     text-decoration: none;
+    margin-left: -30px;
 }
 
 .nav-one li {
     list-style: none;
     display: inline-block;
-    padding: 5px;
 }
 
 .bit-one {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border: #1f268f solid 2px;
     border-radius: 20px;
     background-color: transparent;
