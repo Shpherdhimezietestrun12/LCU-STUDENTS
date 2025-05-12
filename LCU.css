@@ -81,7 +81,6 @@ body {
     font-size: 20px;
     font-family: "Playfair Display", serif;
     font-style: italic;
-    font-weight: bold;
 }
 
 .par-four {
@@ -204,7 +203,7 @@ body {
 }
 
 .nav-two {
-    margin-left: -38px;
+    margin-left: -25px;
 }
 
 .nav-two ul {}
@@ -226,7 +225,7 @@ body {
 
 .nav-three {
     margin-top: 80px;
-    margin-left: -40px;
+    margin-left: -25px;
 }
 
 .nav-three li {
@@ -254,4 +253,46 @@ body {
     border-radius: 30px;
     margin-top: 180px;
     margin-left: 90px;
+}
+
+.par-eight {
+    font-weight: bold;
+    margin-top: 250px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.par-nine {
+    font-weight: bold;
+    margin-top: -15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.bit-three {
+    width: 80px;
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.div-two {
+    margin-top: 80px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: transparent;
+    height: 400px;
+    display: block;
+    border: 2px solid #1f268f;
+    margin-left: auto;
+    margin-right: auto;
 }
