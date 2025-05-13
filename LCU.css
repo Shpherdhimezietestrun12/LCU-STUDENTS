@@ -236,7 +236,7 @@ body {
 
 .nav-three {
     margin-top: 80px;
-    margin-left: -25px;
+    margin-left: -20px;
 }
 
 .nav-three li {
@@ -269,6 +269,7 @@ body {
 .img-eight {
     margin: 0px auto 0;
     display: block;
+    zoom: 0.8;
 }
 
 .par-eight {
@@ -316,7 +317,7 @@ body {
     backdrop-filter: blur(10px);
     margin: 0 auto;
     border-radius: 10px;
-    margin: 40px auto 0;
+    margin: 60px auto 0;
     display: block;
 }
 
@@ -339,7 +340,7 @@ body {
 
 .par-ten {
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 50px;
     text-align: center;
     font-weight: bold;
@@ -347,7 +348,7 @@ body {
 
 .par-eleven {
     color: #FFFFFF;
-    font-size: 21px;
+    font-size: 20px;
     margin-top: -15px;
     text-align: center;
     font-weight: bold;
@@ -355,7 +356,7 @@ body {
 
 .par-twelve {
     color: #1f268f;
-    font-size: 21px;
+    font-size: 20px;
     margin-top: -15px;
     font-weight: bold;
     text-align: center;
