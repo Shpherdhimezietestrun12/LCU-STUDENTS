@@ -121,9 +121,21 @@ body {
     width: 250px;
     height: 40px;
     color: white;
-    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    left: 0;
+    border-radius: 20px;
     border: 1px solid blue;
     background-color: transparent;
+}
+
+.img-play-one {
+    zoom: 0.6;
+    right: 0;
+    bottom: 0;
+    position: absolute;
 }
 
 .par-two {
