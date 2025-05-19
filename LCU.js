@@ -1,5 +1,6 @@
 // this is for the up end detectio...
-// const ForArrow = document.querySelector('.img_sec_last');
+
+const ForArrow = document.querySelector('.img_sec_last');
 
 
 window.addEventListener('scroll', () => {
@@ -19,4 +20,18 @@ window.addEventListener('scroll', () => {
 function FirstContainer() {
     var container = document.querySelector(".play-one");
     container.style.display = container.style.display === "block" ? "none" : "block";
+}
+
+
+
+
+// this is for the second container....
+function SecondContainer() {
+    var container_two = document.querySelector(".play-two");
+    var div_two = document.querySelector(".div-two");
+    container_two.style.display = container_two.style.display === "block" ? "none" : "block";
+    document.body.style.overflow = container_two.style.display === "block" ? "hidden" : "auto";
+    document.body.classList.toggle("dark-overlay", container_two.style.display === "block");
+    div_two.classList.toggle("dark-overlay", container_two.style.display === "block");
+
 }
