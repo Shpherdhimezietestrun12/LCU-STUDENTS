@@ -184,6 +184,7 @@ body {
     font-size: 20px;
     font-family: "Playfair Display", serif;
     font-style: italic;
+    text-align: start;
 }
 
 .par-four {
@@ -193,6 +194,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
+    text-align: start;
 }
 
 .par-five {
@@ -202,10 +204,41 @@ body {
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
+    text-align: start;
+}
+
+.par-extra-six {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: start;
+}
+
+.par-extra-seven {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: start;
+}
+
+.par-extra-eight {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: start;
 }
 
 .img-three {
-    margin-top: -130px;
+    margin-top: -160px;
     margin-right: -2px;
     right: 0;
     position: absolute;
@@ -232,6 +265,7 @@ body {
 .nav-one {
     text-decoration: none;
     overflow-x: hidden;
+    /* Add this */
     margin-top: 70px;
     margin-left: -70px;
 }
@@ -242,7 +276,9 @@ body {
     display: flex;
     flex-wrap: nowrap;
     /* ... existing styles ... */
-    animation: slide 15s infinite;
+    /* Add this to make the ul wider than the parent */
+    animation: slide 5s infinite;
+    /* Add this */
     /* Reduced from 60s to 15s */
 }
 
@@ -276,7 +312,8 @@ body {
 }
 
 .nav-one ul::-webkit-scrollbar {
-    height: 0px;
+    height: 2px;
+    /* Set a small height */
 }
 
 .nav-one ul::-webkit-scrollbar-thumb {
@@ -502,6 +539,29 @@ body {
     margin-top: -15px;
     text-align: center;
     font-weight: bold;
+}
+
+.par-twenty {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+
+.course-one {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: -30px;
+    top: 0;
+}
+
+.cor-ext-one {
+    font-weight: _;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
 }
 
 .par-fourteen {
