@@ -10,3 +10,242 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.div-cont-one {
+    width: 104.6%;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 100px;
+    background-color: transparent;
+    border-bottom: 0.5px solid #bab5b5;
+}
+
+.img-one {
+    zoom: 0.1;
+    margin-left: 25%;
+    margin-top: 6%;
+}
+
+.par-one {
+    font-size: 50px;
+    color: white;
+    margin-left: 40%;
+    margin-top: -15%;
+}
+
+.but-one {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    border: 1px solid #2b318a;
+    background-color: #2b318a;
+    margin-right: auto;
+    color: white;
+    margin-top: 9%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-one {
+    text-decoration: none;
+    color: white;
+    margin-top: -12px;
+}
+
+.nav-one ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-one li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-one-one {
+    margin-left: -35px;
+    font-size: 18px;
+}
+
+.nav-one-three {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: -45px;
+}
+
+.nav-one-two {
+    font-size: 18px;
+}
+
+.par-two {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.email-one {
+    width: 330px;
+    height: 45px;
+    font-size: 17px;
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+    display: block;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+
+.email-one::placeholder {
+    padding: 10px;
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.email-two {
+    width: 330px;
+    padding-left: 10px;
+    margin-left: auto;
+    font-size: 17px;
+    margin-right: auto;
+    display: block;
+    color: white;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.email-two::placeholder {
+    padding: 10px;
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.pass-one {
+    padding-left: 10px;
+    width: 330px;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 6px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.pass-one::placeholder {
+    padding: 10px;
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.pass-two {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    display: block;
+    width: 330px;
+    height: 45px;
+    margin-top: 25px;
+    font-size: 17px;
+    color: white;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.pass-two::placeholder {
+    padding: 10px;
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.text-one {
+    width: 330px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 25px;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.text-one::placeholder {
+    padding: 10px;
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.par-three {
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.but-two {
+    margin-top: -16px;
+    color: white;
+    margin-right: 56px;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 200px;
+    font-size: 17px;
+    height: 50px;
+}
+
+.but-three {
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    margin-top: -5px;
+    margin-left: 42px;
+    font-size: 17px;
+    padding-left: 10px;
+    font-size: bold;
+}
+
+.but-four {
+    margin-top: -36px;
+    width: 100px;
+    font-size: 17px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: bold;
+}
+
+.par-four {
+    text-align: start;
+    font-size: bold;
+}
+
+.img-three {
+    zoom: 0.5;
+    margin-bottom: -7px;
+    margin-left: -200px;
+}
