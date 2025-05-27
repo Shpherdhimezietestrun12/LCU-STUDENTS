@@ -35,3 +35,9 @@ function SecondContainer() {
     div_two.classList.toggle("dark-overlay", container_two.style.display === "block");
 
 }
+
+
+const backArrow = document.querySelector('.bit-img-one');
+backArrow.addEventListener('click', () => {
+    window.location.href = document.referrer;
+});
