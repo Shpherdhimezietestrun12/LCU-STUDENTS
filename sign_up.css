@@ -220,7 +220,7 @@ body {
     color: white;
     height: 50px;
     margin-top: -5px;
-    margin-left: 42px;
+    margin-left: _;
     font-size: 17px;
     padding-left: 10px;
     font-size: bold;
@@ -235,8 +235,10 @@ body {
     border: 1px solid white;
     color: white;
     padding-left: 10px;
+    margin-right: 100px;
+    margin-left: 10px;
     margin-top: 20px;
-    font-size: bold;
+    font-weight: bold;
 }
 
 .par-four {
@@ -246,6 +248,147 @@ body {
 
 .img-three {
     zoom: 0.5;
-    margin-bottom: -7px;
-    margin-left: -200px;
+    margin-top: -8px;
+    margin-left: -197px;
+    position: absolute;
+}
+
+.check-one[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: -30px;
+}
+
+.check-one[type="checkbox"]:checked::after {
+    content: "\2713";
+    /* Checkmark symbol */
+    position: absolute;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    /* Change checkmark color */
+    font-size: 30px;
+}
+
+.par-five {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Goudy Old Style", Garamond, serif;
+    font-style: italic;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.play-img-one {
+    width: 130px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    background-color: black;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.nav-test-one {
+    text-decoration: none;
+    text-align: start;
+}
+
+.nav-test-one ul {
+    list-style: none;
+}
+
+.nav-test-one li {
+    padding: 6px;
+}
+
+.nav-test-two {
+    margin-left: -25px;
+    font-weight: bolder;
+}
+
+.div-three {
+    width: 320px;
+    height: 100px;
+    margin-top: 35px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.input-two[type="checkbox"] {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-bottom: -45px;
+}
+
+.input-two[type="checkbox"]:checked::after {
+    content: "\2713";
+    /* Checkmark symbol */
+    position: absolute;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    /* Change checkmark color */
+    font-size: 35px;
+}
+
+.par-ten {
+    color: white;
+    margin-left: 60px;
+    font-size: 23px;
+    margin-top: 14px;
+}
+
+.par-ten-one {
+    color: white;
+    text-align: center;
+}
+
+.par-ten-two {
+    color: blue;
+    text-align: center;
+}
+
+.par-ten-three {
+    color: white;
+    text-align: center;
+}
+
+.par-ten-four {
+    color: white;
+    text-align: center;
+}
+
+.par-ten-five {
+    color: blue;
+    text-align: center;
+}
+
+.but-five {
+    height: 50px;
+    color: black;
+    width: 170px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: blue;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid blue;
 }
