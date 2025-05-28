@@ -76,7 +76,7 @@ body {
 .view-one {
     color: blue;
     font-size: 13px;
-    margin-left: 20px;
+    margin-left: -5px;
     position: absolute;
     margin-top: 20px;
 }
@@ -87,12 +87,12 @@ body {
     width: 99.5%;
     height: 80px;
     margin-left: -7px;
-    top: 520px;
+    bottom: 0;
     position: fixed;
 }
 
 .nav-one-one {
-    margin-left: -15px;
+    margin-left: -35px;
     margin-top: -35px;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .nav-one-two {
-    margin-left: -15px;
+    margin-left: -35px;
 }
 
 .nav-one-two ul {
