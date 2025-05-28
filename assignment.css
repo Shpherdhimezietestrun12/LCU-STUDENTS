@@ -1,166 +1,95 @@
-body {
-    background-color: black;
+// this is for the up end detectio...
+const ForArrow = document.querySelector('.img_sec_last');
+
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY === 0) {
+        ForArrow.classList.add('show');
+    } else {
+        ForArrow.classList.remove('show');
+    }
+});
+
+
+
+
+/// this is for the down button container ...
+function FirstContainer() {
+    var container = document.querySelector(".play-one");
+    container.style.display = container.style.display === "block" ? "none" : "block";
 }
 
-.div-one {
-    height: 190px;
-    background-color: white;
-    margin-left: -7px;
-    width: 105%;
-    margin-top: -15px;
+
+
+
+// this is for the second container....
+function SecondContainer() {
+    var container_two = document.querySelector(".play-two");
+    var div_two = document.querySelector(".div-two");
+    container_two.style.display = container_two.style.display === "block" ? "none" : "block";
+    document.body.style.overflow = container_two.style.display === "block" ? "hidden" : "auto";
+    document.body.classList.toggle("dark-overlay", container_two.style.display === "block");
+    div_two.classList.toggle("dark-overlay", container_two.style.display === "block");
+
 }
 
-.nav-one {
-    margin-left: -15px;
-}
+// this is for the chat backing seqeunce...
+const backArrow = document.querySelector('.bit-img-one');
+backArrow.addEventListener('click', () => {
+    window.location.href = document.referrer;
+});
 
-.nav-one ul {
-    list-style: none;
-}
 
-.nav-one li {
-    padding: 15px;
-    display: inline-block;
-}
 
-.img-one {
-    margin-left: -20px;
-    zoom: 0.7;
-}
 
-.img-two {
-    right: 0;
-    position: absolute;
-    margin-top: -40px;
-    zoom: 0.7;
-    margin-right: 110px;
-}
+// this is for the up arrow and down arrow function
+const UpArrow = document.querySelector('.img_sec_last');
+const DownArrow = document.querySelector('.img_sec_last_two');
 
-.img-three {
-    right: 0;
-    margin-top: -60px;
-    position: absolute;
-    zoom: 0.7;
-}
+//initially show the down arrow first..
+DownArrow.style.display = 'block';
 
-.par-one {
-    color: blue;
-    font-size: 25px;
-    margin-top: -10px;
-    margin-left: 40px;
-}
 
-.par-two {
-    color: blue;
-    font-size: 19px;
-    margin-top: -25px;
-    margin-left: 40px;
-}
 
-.div-two {
-    width: 255px;
-    height: 130px;
-    background-color: #282fa0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: -25px;
-    border-radius: 20px;
-}
+DownArrow.addEventListener('click', () => {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    DownArrow.style.display = 'none';
+    UpArrow.style.display = 'block';
+});
 
-.par-three {
-    color: white;
-    font-size: 19px;
-    font-weight: bold;
-    margin-top: 20px;
-    position: absolute;
-    margin-left: 20px;
-}
 
-.par-four {
-    color: white;
-    margin-left: 25px;
-    font-size: 23px;
-    font-weight: bold;
-}
+UpArrow.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    UpArrow.style.display = 'none';
+    DownArrow.style.display = 'block';
+});
 
-.img-test {
-    zoom: 0.6;
-    margin-top: 75px;
-    margin-right: 125px;
-    right: 0;
-    position: absolute;
-}
+window.addEventListener('scroll', () => {
+    if (window.scrollY + window.innerHeight >= document.body.scrollHeight) {
+        // At the bottom, show up arrow
+        DownArrow.style.display = 'none';
+        UpArrow.style.display = 'block';
+    } else if (window.scrollY === 0) {
+        // At the top, show down arrow
+        UpArrow.style.display = 'none';
+        DownArrow.style.display = 'block';
+    } else {
+        // You can add logic here if you want to show/hide arrows when not at top or bottom
+    }
+});
 
-.nav-pair {
-    margin-left: -15px;
-}
 
-.nav-pair ul {
-    list-style: none;
-}
 
-.nav-pair li {
-    display: inline-block;
-}
 
-.but-pair {
-    width: 50px;
-    height: 30px;
-    color: white;
-    background-color: blue;
-    border: 1px solid blue;
-    border-radius: 20px;
-    font-size: 17px;
-}
+// this is for the login authentication code..
 
-.but-pair-one {
-    width: 95px;
-    height: 30px;
-    color: white;
-    background-color: #131751;
-    font-size: 17px;
-    border: 1px solid #131751;
-    border-radius: 20px;
-}
+function checkLogin(url) {
+    const isLoggedIn = sessionStorage.getItem('isLoggedIn') === 'true';
 
-.but-pair-two {
-    width: 105px;
-    height: 30px;
-    color: white;
-    border-radius: 20px;
-    background-color: #131751;
-    font-size: 17px;
-    border: 1px solid blue;
-}
+    if (isLoggedIn) {
+        window.location.href = url;
 
-.div-five {
-    height: 1400px;
-    background-color: transparent;
-    margin-left: -7px;
-    width: 105%;
-    margin-top: 50px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-
-.cour-nav {
-    margin-left: -27px;
-}
-
-.cour-nav ul {
-    list-style: none;
-}
-
-.cour-nav li {
-    padding: 7px;
-    display: inline-block;
-}
-
-.cour-but {
-    width: 150px;
-    height: 200px;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 10px;
+    } else {
+        window.location.href = `login.html?redirect=${encodeURIComponent(url)}`;
+    }
 }
