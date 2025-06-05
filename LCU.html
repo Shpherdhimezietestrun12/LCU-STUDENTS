@@ -13,24 +13,31 @@
     <div class="div-one">
 
         <img src="./Logo/images_prev_ui.png" class="img-one">
-        <img src="./Representations/test_two.png" class="img-two" onclick="FirstContainer()">
-        <div class="play-one" style="display: none;">
-            <nav class="nav-extra">
+        <img src="./Representations/icons8-vertical-line-100.png" class="img-one-two">
+        <p class="par-one">Lead City University</p>
+        <p class="par-two">Ibadan</p>
+        <p class="par-rep-two">..Knowledge for Self-Reliance</p>
+        <img src="./Pictures/logo_ne.png" class="img-testing">
+        <p class="task-one">200L Task Management System...</p>
+        <p class="task-two ">For Software Engineering Students.</p>
+        <p class="task-three ">Note page handled by lecturers..</p>
+        <img src="./Representations/test_two.png " class="img-two " onclick="FirstContainer() ">
+        <div class="play-one " style="display: none; ">
+            <nav class="nav-extra ">
                 <ul>
-                    <li onclick="window.location.href='sign_up.html';" class="list-one">Sign up</li>
-                    <li onclick="window.location.href='login.html';" class="list-one">Login</li>
-                    <li onclick="checkLogin('course.html')" class="list-one">Courses</li>
-                    <li onclick="window.location.href='assignments.html';" class="list-one">Get Assignments</li>
-                    <li class="list-one" onclick="window.location.href='https://www.lcu.edu.ng';">School Portal</li>
-                    <li onclick="window.location.href='notes.html';" class="list-one">Notes/Tools</li>
-                    <li onclick="window.location.href='chat.html';" class="list-one">Chats</li>
+                    <li onclick="window.location.href=' sign_up.html ' ; " class="list-one ">Sign up</li>
+                    <li onclick="window.location.href='login.html ' ; " class="list-one ">Login</li>
+                    <li onclick="checkLogin( 'course.html ') " class="list-one ">Courses</li>
+                    <li onclick="window.location.href='assignments.html ' ; " class="list-one ">Get Assignments</li>
+                    <li class="list-one " onclick="window.location.href='https://www.lcu.edu.ng ' ; ">School Portal</li>
+                    <li onclick="window.location.href='notes.html ' ; " class="list-one ">Notes/Tools</li>
+                    <li onclick="window.location.href='chat.html ' ; " class="list-one ">Chats</li>
                 </ul>
             </nav>
         </div>
     </div>
-    <p class="par-one">Lead City</p>
-    <p class="par-two">University</p>
-    <p class="par-extra-one">"</p>
+
+    <p class="par-extra-one ">"</p>
     <p class="par-three">A task management system</p>
     <p class="par-four">for 200L software Engineering</p>
     <p class="par-five">to handle assignment taking</p>
@@ -86,17 +93,17 @@
     <p class="par-seven">Services Offered...</p>
     <nav class="nav-two">
         <ul>
-            <li><button class="bit-two" onclick="window.location.href='notes.html';">
+            <li><button class="bit-two" onclick="window.location.href='notes.html ';">
                 <p class="det-one">Departmental Notes</p>
                 <p class="det-one-one">Get all department notes here</p>
                 <p class="det-one-two">in our software engineering page.</p>
             </button></li>
-            <li><button class="bit-two" onclick="window.location.href='assignments.html';">
+            <li><button class="bit-two" onclick="window.location.href='assignments.html ';">
                 <p class="det-two">Departmental Assignments</p>
                 <p class="det-two-one">View all department assignment here</p>
                 <p class="det-two-two">in our software engineering page.</p>
             </button></li>
-            <li><button class="bit-two" onclick="window.location.href='course.html';">
+            <li><button class="bit-two" onclick="checkLogin('course.html ')">
                 <p class="det-three">Departmental Courses</p> 
                 <p class="det-three-one">Get all department course here</p>
                 <p class="det-three-two">in our software engineering page.</p>
@@ -131,7 +138,10 @@
         <button class="bit-four" onclick="SecondContainer()">Chat</button>
         <div class="play-two" style="display: none">
             <img src="./Representations/left_arrow.png" class="bit-img-one">
-            <input type="text" placeholder="Chat with cynthia" class="input-one">
+            <div class="message-container">
+                <!-- Messages will be displayed here -->
+            </div>
+            <input type="text" placeholder="Chat with Task Manager" class="input-one">
             <img src="./Representations/icons8-right-arrow-100.png" class="img-play-one">
         </div>
         <div class="overlay" style="display: none"></div>
