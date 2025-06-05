@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #242124;
 }
 
 .div-one {
@@ -39,8 +39,8 @@ body {
     border-radius: 30px;
     display: block;
     margin-left: auto;
-    border: 1px solid #2b318a;
-    background-color: #2b318a;
+    border: 1px solid #0010ff;
+    background-color: #0010ff;
     margin-right: auto;
     color: white;
     margin-top: 9%;
