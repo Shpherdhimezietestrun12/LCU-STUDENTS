@@ -26,11 +26,39 @@ function FirstContainer() {
 function SecondContainer() {
     var container_two = document.querySelector(".play-two");
     var div_two = document.querySelector(".div-two");
-    container_two.style.display = container_two.style.display === "block" ? "none" : "block";
-    document.body.style.overflow = container_two.style.display === "block" ? "hidden" : "auto";
-    document.body.classList.toggle("dark-overlay", container_two.style.display === "block");
-    div_two.classList.toggle("dark-overlay", container_two.style.display === "block");
 
+    if (container_two.style.display === "block") {
+        container_two.style.display = "none";
+        document.body.style.overflow = "auto";
+        document.body.classList.remove("dark-overlay");
+        div_two.classList.remove("dark-overlay");
+        MessageLoading.innerHTML = ''; // clear messages when container is closed
+    } else {
+        container_two.style.display = "block";
+        document.body.style.overflow = "hidden";
+        document.body.classList.add("dark-overlay");
+        div_two.classList.add("dark-overlay");
+
+
+        // this will be for the presenting message..
+        const welcomeMessageCont = document.createElement('.div');
+        welcomeMessageCont.classList.add('.message-box');
+        const welcomeMessage = document.createElement('p');
+        welcomeMessage.innerText = 'Hello Student, This is your chat assistance for 200L Software Eng.';
+        welcomeMessageCont.appendChild(welcomeMessage);
+        MessageLoading.appendChild(welcomeMessageCont);
+
+        const assistanceMessageCont = document.createElement('div');
+        assistanceMessageCont.classList.add('message-box');
+        assistanceMessageCont.style.marginTop = '15px';
+        const assistanceMessage = document.createElement('p');
+        assistanceMessage.innerText = 'How may I be of assistance.';
+        assistanceMessageCont.appendChild(assistanceMessage);
+        MessageLoading.appendChild(assistanceMessageCont);
+
+        MessageLoading.scrollTop = MessageLoading.scrollHeight;
+
+    }
 }
 
 // this is for the chat backing seqeunce...
@@ -93,3 +121,44 @@ function checkLogin(url) {
         window.location.href = `login.html?redirect=${encodeURIComponent(url)}`;
     }
 }
+
+
+
+// this is too chnage the picture randomly on diff notes ...
+
+
+const DivOne = document.querySelector('.div-one');
+const ImgaesOne = [
+    './Pictures/FOR_SCH/PLAY_ONE.png',
+    './Pictures/FOR_SCH/PLAY_TWO.png',
+    './Pictures/FOR_SCH/PLAY_THREE.png',
+    './Pictures/FOR_SCH/PLAY_FOUR.png',
+    './Pictures/FOR_SCH/PLAY_FIVE.png',
+
+];
+let currentImageIndex = 0;
+
+setInterval(() => {
+    DivOne.style.backgroundImage = `url(${ImgaesOne[currentImageIndex]})`;
+    DivOne.style.backgroundRepeat = 'no-repeat';
+    DivOne.style.backgroundPosition = '70% 20%';
+    DivOne.style.backgroundSize = 'cover';
+
+    currentImageIndex = (currentImageIndex + 1) % ImgaesOne.length;
+}, 9000); // 3000 milliseconds = 9 seconds
+
+
+
+// this is for the chat bot page... 
+const DataGotten = document.querySelector('.input-one');
+const ImgPlay = document.querySelector('.img-play-one');
+const MessageLoading = document.querySelector('.message-container');
+
+ImgPlay.addEventListener('click', () => {
+    const InputedValue = DataGotten.value;
+    const messageElement = document.createElement('p');
+    messageElement.innerText = InputedValue;
+    MessageLoading.appendChild(messageElement);
+    DataGotten.value = ''; // clear the input field 
+    MessageLoading.scrollTop = MessageLoading.scrollHeight; // this is for scrolling too the bottom of the message container 
+});
