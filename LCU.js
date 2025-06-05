@@ -129,11 +129,11 @@ function checkLogin(url) {
 
 const DivOne = document.querySelector('.div-one');
 const ImgaesOne = [
-    './Pictures/FOR_SCH/PLAY_ONE.png',
-    './Pictures/FOR_SCH/PLAY_TWO.png',
-    './Pictures/FOR_SCH/PLAY_THREE.png',
-    './Pictures/FOR_SCH/PLAY_FOUR.png',
-    './Pictures/FOR_SCH/PLAY_FIVE.png',
+    './Pictures/PLAY_ONE.png',
+    './Pictures/PLAY_TWO.png',
+    './Pictures/PLAY_THREE.png',
+    './Pictures/PLAY_FOUR.png',
+    './Pictures/PLAY_FIVE.png',
 
 ];
 let currentImageIndex = 0;
